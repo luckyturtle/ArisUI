@@ -1,0 +1,109 @@
+.StakeCollapse {
+    width: 100%;
+}
+.StakeCollapse .ant-collapse-header {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--stake-switch-bk);
+}
+.StakeCollapse .ant-collapse {
+    border: 0px;
+}
+.StakeCollapse .ant-collapse-item {
+    border: 0px;
+}
+.StakeCollapse .ant-collapse-expand-icon{
+    color:var(--primary-color);
+}
+.StakeCollapse-header {
+    padding: 10px;
+}
+.StakeCollapse .tokenName {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--third-color);
+}
+.StakeCollapse .apy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.StakeCollapse .action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.StakeCollapse .apy-label {
+    color:var(--third-color);
+    font-size: 15px;
+}
+
+.StakeCollapse .apy-number {
+    color:var(--primary-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+.StakeCollapse .stacked_bal_label{
+    color:var(--third-color);
+    font-size: 15px;
+}
+.StakeCollapse .staked_bal_ib_num{
+    color:var(--primary-color);
+    font-size: 15px;
+    font-weight: bold;
+}
+.StakeCollapse .staked_bal_num{
+    color:var(--primary-color);
+    font-size: 15px;
+}
+.StakeCollapse .action-label {
+    color:var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: 15px;
+    border-radius: 10px;
+    padding:5px;
+    border: 2px solid var(--primary-color);
+}
+.StakeCollapse .ant-collapse-content-box {
+    background: var(--fourth-color);
+    border-left: 1px solid var(--stake-switch-bk);
+    border-right: 1px solid var(--stake-switch-bk);
+    border-bottom: 1px solid var(--stake-switch-bk);
+}
+.StakeCollapse .ant-collapse-content {
+    border: 0px;
+}
+.StakeCollapse .ant-collapse {
+    background: var(--fourth-color);
+}
+.StakeCollapse .ant-btn-confirm:disabled {
+    background: var(--fourth-color);
+    color: var(--input-border);
+    border-color: var(--input-border);
+}
+.StakeCollapse .ant-btn-confirm {
+    border-radius: 7px 7px 7px 7px;
+    float: right;
+    width: 100%;
+}
+.StakeCollapse .approve {
+    width: 100%;
+    margin-top: 2rem;
+}
+.StakeCollapse .unstake {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+.stakeBox-total-label {
+    color:var(--input-label);
+    font-size: 15px;
+}
+.stakeBox-total-number {
+    color:var(--primary-color);
+    font-size: 30px;
+}
+.StakeCollapse .claim {
+    width: 60%;
+    margin-top: 1.5rem;
+}

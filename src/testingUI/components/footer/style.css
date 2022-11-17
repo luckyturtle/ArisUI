@@ -1,0 +1,4 @@
+.footer-content {
+    color: var(--footerContent)!important;
+    font-style: italic;
+}

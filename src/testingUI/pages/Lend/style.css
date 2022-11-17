@@ -1,0 +1,162 @@
+.site-card-border-less-wrapper {
+    background: #ececec;
+  }
+.l-t-card {
+    margin-top: 1rem;
+    background: var(--secondary-color);
+    border-radius: 20px;
+    box-shadow: var(--tw-shadow);
+    border: 0px;
+}
+.c-btn {
+    color: var(--primary-color)!important;
+    border-color: var(--primary-color)!important;
+    border-radius: 15px;
+}
+.ant-table-wrapper {
+    width: 100%;
+}
+.EarnAvailableLendingPoolTable {
+    width: 100%;
+}
+.EarnAvailableLendingPoolTable .ant-table-thead>tr>th {
+    background: var(--secondary-color);
+    /* border-bottom: none!important; */
+    color: #828282!important;
+}
+.EarnAvailableLendingPoolTable .ant-table-placeholder {
+    background: var(--secondary-color);
+    /* border-bottom: none!important; */
+    color: #828282!important;
+}
+.EarnAvailableLendingPoolTable .ant-table-tbody > tr.ant-table-placeholder:hover > td {
+    background: var(--secondary-color)!important;
+}
+.ant-table-tbody > tr.ant-table-row:hover > td {
+    background: var(--table-row-hover)!important;
+}
+.EarnAvailableLendingPoolTable .ant-table-cell {
+    background: var(--secondary-color);
+    /* border-bottom: none!important; */
+    color: var(--table-cell)!important;
+    /* border-bottom: 0px; */
+}
+.EarnAvailableLendingPoolTable .ant-table-cell-row-hover {
+    background: var(--table-row-hover)!important;
+}
+.EarnAvailableLendingPoolTable .ant-table-row {
+    border-bottom: 2px solid var(--table-row-bottom);
+}
+.EarnAvailableLendingPoolTable .ant-empty-description {
+    color: var(--divider)!important;
+}
+.EarnAvailableLendingPoolTable .ant-empty-image {
+    color: var(--divider)!important;
+}
+.EarnAvailableLendingPoolTable .ant-table table {
+    border-collapse: collapse!important;
+}
+.text-primary {
+    color: var(--primary-color)!important;
+}
+.EarnAvailableLendingPoolTable .c-apy--leverage {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: .583333px;
+    color: var(--primary-color);
+}
+.l-t-tooltip {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: .75rem;
+    font-weight: bold;
+    color: var(--secondary-color)!important;
+  }
+.c-fieldValue {
+    font-size: 18px!important;
+}
+.c-fieldValue-1 {
+    font-size: 15px!important;
+}
+.EarnAvailableLendingPoolTable .c-actionBtn--deposit, .EarnAvailableLendingPoolTable .c-actionBtn--lock {
+    border: 2px solid var(--primary-color);
+    box-sizing: border-box;
+    font-style: normal;
+    font-size: 14px;
+    height: 32px;
+    letter-spacing: .583333px;
+}
+.EarnAvailableLendingPoolTable .c-actionBtn--deposit {
+    color: var(--primary-color);
+    width: 100%;
+    border-radius: 20px;
+}
+.EarnAvailableLendingPoolTable .c-actionBtn {
+    border-radius: 0.75rem;
+    height: 3rem;
+}
+.EarnAvailableLendingPoolTable .c-actionBtn--deposit:enabled:hover {
+    border: 2px solid var(--primary-color)!important;
+    background: var(--primary-color)!important;
+    color: #fff;
+}
+.EarnAvailableLendingPoolTable .c-titleName {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: .583333px;
+}
+.EarnAvailableLendingPoolTable .c-ibTokenPerBaseToken {
+    font-size: .75rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    --tw-bg-opacity: 1;
+    background-color: var(--secondary-color);
+    --tw-text-opacity: 1;
+    color: var(--table-cell);
+    border-radius: 4px;
+}
+.EarnAvailableLendingPoolTable .c-getToken {
+    border-radius: 0.75rem;
+    --tw-bg-opacity: 1;
+    background-color: var(--get-token);
+    --tw-border-opacity: 1;
+    border-color: var(--get-token);
+    font-weight: 600;
+    font-size: .875rem;
+    color: var(--primary-color);
+}
+.ml-1 {
+    margin-left: .25rem;
+}
+.AddToMetamaskButton {
+    height: 1.5rem;
+}
+.c-metamaskImg {
+    width: 1rem;
+}
+.ant-btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+}
+.ant-btn-primary:focus, .ant-btn-primary:hover {
+    background-color: var(--primary-light-color);
+    border-color: var(--primary-light-color);
+    color: #fff;
+}
+.EarnAvailableLendingPoolTable .c-tag--new {
+    background-image: linear-gradient(to top right,var(--primary-f-color),var(--tertiary-color));
+}
+.EarnAvailableLendingPoolTable .c-tag {
+    border-radius: 0.25rem;
+    color: var(--get-token);
+    font-weight: 600;
+    font-size: .75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 0.25rem;
+}

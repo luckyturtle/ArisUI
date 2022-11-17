@@ -1,0 +1,191 @@
+.PortfolioHeader .l-wrapper {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PortfolioHeader .c-menu {
+    display: flex;
+}
+.PortfolioMenuCard {
+    cursor: pointer;
+    height: 2.5rem;
+    border: 1px solid var(--divider);
+    color: var(--footerContent);
+    border-radius: 0.75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 700;
+    padding: 0rem 2rem;
+    position: relative;
+    height: 60px;
+}
+.ml-2 {
+    margin-left: 2rem;
+}
+.PortfolioMenuCard .c-tag--new {
+    background: linear-gradient(108.1deg,var(--primary-light-color),var(--primary-color) 48.54%,var(--primary-dark-color));
+    box-shadow: var(--tw-shadow);
+    color:var(--secondary-color);
+    margin-left: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    font-size: 12px;
+}
+.Ping, .Ping .c-basePart {
+    position: absolute;
+    height: 0.75rem;
+    width: 0.75rem;
+}
+.Ping .c-flashingPart {
+    -webkit-animation: ping 1s cubic-bezier(0,0,.2,1) infinite;
+    animation: ping 1s cubic-bezier(0,0,.2,1) infinite;
+    position: absolute;
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+    opacity: .75;
+}
+.Ping .c-basePart, .Ping .c-flashingPart {
+    border-radius: 9999px;
+    background-color: var(--primary-color);
+}
+.-right-1 {
+    right: -0.25rem;
+}
+.-top-1 {
+    top: -0.25rem;
+}
+.PortfolioMenuCard--active {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+@keyframes ping{75%,to{-webkit-transform:scale(2);transform:scale(2);opacity:0}}
+.PortfolioBody_title {
+    font-size: 1.5rem;
+    color:var(--third-color);
+}
+.PortfolioHeader .ant-switch-checked {
+    background-color: var(--primary-color)!important;
+}
+.PortfolioHeader .ant-switch-handle:before {
+    background-color: var(--secondary-color);
+}
+.PortfolioHeader .c-switcher {
+    background-color: var(--stake-switch-bk);
+}
+
+.PortfolioHeader .c-switcher__btn {
+    color: var(--footerContent)!important;
+    background-color: var(--secondary-color);
+    border-radius: 9999px;
+    border-style: none;
+    font-size: 1rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    border: 0px;
+}
+
+.PortfolioHeader .c-switcher__btn.ant-radio-button-wrapper-checked {
+    font-weight: 700;
+    color: var(--secondary-color)!important;
+    background-color: var(--primary-color);
+    border: 0px!important;
+}
+.PortfolioHeader .c-switcher__btn.ant-radio-button-wrapper-checked:hover {
+    background-color: var(--primary-color);
+}
+.PortfolioHeader .ant-radio-button-wrapper:not(:first-child)::before { 
+    width: 0px;
+}
+
+.FarmClaimLinkCard {
+    width: 70%;
+    border:0px;
+    box-shadow: var(--tw-shadow);
+    border-radius: 15px;
+    background-color: var(--colors-footerbackground);
+}
+.FarmClaimLinkCard .c-alpacaEarned__title {
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    color:var(--secondary-text-color);
+}
+.FarmClaimLinkCard .c-alpacaEarned__amount {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+.c-alpacaEarned_btn {
+    color:var(--secondary-color);
+    font-weight: bold;
+    border-radius: 10px;
+}
+.c-alpacaEarned_btn:hover {
+    color:var(--secondary-color);
+}
+.c-alpacaEarned_btn:focus {
+    color:var(--secondary-color);
+}
+.PortfolioHeader .ant-pagination-total-text {
+    color:var(--third-color);
+}
+.PortfolioHeader .ant-pagination-item-link {
+    color:var(--third-color);
+}
+.PortfolioHeader .ant-pagination-item-link:disabled {
+    color: var(--colors-footerbackground)!important;
+}
+.PortfolioHeader .ant-pagination-item a {
+    color:var(--third-color);
+}
+.PortfolioHeader .ant-pagination-item-active {
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    color: var(--secondary-text-color);
+}
+.StrategyPortfolioSummaryCard {
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+.StrategyPortfolioSummaryCard .c-summary {
+    z-index: 10;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+.StrategyPortfolioSummaryCard .c-summary__subject {
+    font-size: 1.125rem;
+    color:var(--third-color);
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+.StrategyPortfolioSummaryCard .c-summary__number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:var(--primary-color);
+    margin-top: 0;
+}
+.StrategyPortfolioSummaryCard .c-coverMascot {
+    z-index: 10;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+.StrategyPortfolioSummaryCard .ant-card-cover {
+    position: relative;
+    min-height: 385px;
+}
+.StrategyPortfolioSummaryCard .ant-card-cover img{
+    min-height: 385px;
+    object-fit: cover!important;
+}
+.no-holdings {
+    font-size: 1.125rem;
+    color: var(--third-color);
+    margin-bottom: 2rem;
+}

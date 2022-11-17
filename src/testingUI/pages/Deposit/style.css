@@ -1,0 +1,109 @@
+.l-t-card-deposit {
+    margin-top: 1rem;
+    background: var(--secondary-color);
+    border-radius: 20px;
+    box-shadow: var(--tw-shadow);
+    border: 0px;
+    padding: 25px;
+}
+.deposit-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--tooltip-bk);
+    margin-right: 0.5rem;
+}
+.DepositWithdraw .c-getToken {
+    border-radius: 0.75rem;
+    --tw-bg-opacity: 1;
+    background-color: var(--get-token);
+    --tw-border-opacity: 1;
+    border-color: var(--get-token);
+    font-weight: 600;
+    font-size: .875rem;
+    color: var(--primary-color);
+    margin-left: 0.5rem;
+}
+.DepositWithdraw .token-img {
+    margin-top: -0.8rem;
+}
+.c_input_label {
+    color: var(--input-label);
+    margin-top: 2rem;
+}
+.c-inputMax__input {
+    background: var(--secondary-color);
+    border-radius: 10px 0 0 10px;
+    border-color: var(--input-border);
+    color: var(--input-label);
+}
+.c-inputMax__input:focus {
+    border-color: var(--input-border);
+    box-shadow: 0 0 0 0px rgb(24 144 255 / 20%);
+    border-right-width: 0px;
+    outline: 0;
+}
+.EarnDepositWithdrawPage .ant-btn-max {
+    border-radius: 0 7px 7px 0;
+    border-left: none;
+    float: left;
+    color: var(--primary-color);
+}
+.c-inputMax__input:hover {
+    border-color: var(--input-border);
+    box-shadow: 0 0 0 0px rgb(24 144 255 / 20%);
+}
+.c-inputMax_btn {
+    border-radius: 0 7px 7px 0;
+    border-left: none;
+    float: left;
+    color: var(--primary-color);
+    font-size: 15px;
+    border-color: var(--input-border);
+    background-color:  var(--secondary-color);
+}
+.c-inputMax_btn:hover {
+    border-color: var(--input-border);
+    color: var(--primary-color);
+    background-color:  var(--secondary-color);
+}
+.c-inputMax_btn:focus {
+    border-color: var(--input-border);
+    color: var(--primary-color);
+    background-color:  var(--secondary-color);
+}
+.s-r {
+    color: var(--primary-color);
+}
+.font-bold {
+    font-weight: bold;
+}
+.c-primary{
+    color: var(--primary-color);
+}
+.s-r a:hover {
+    color: var(--primary-light-color);
+    text-decoration: underline;
+}
+.btn-back {
+    border-radius: 7px 7px 7px 7px;
+    color: grey;
+    float: left;
+}
+.ant-btn-text:focus, .ant-btn-text:hover {
+    color: var(--primary-light-color);
+    border-color: transparent;
+    background: rgba(0,0,0,.018);
+}
+.mt-9 {
+    margin-top: 9rem;
+}
+.EarnDepositWithdrawPage .ant-btn-confirm:disabled {
+    background: var(--secondary-color);
+    color: var(--input-border);
+    border-color: var(--input-border);
+}
+.EarnDepositWithdrawPage .ant-btn-confirm {
+    border-radius: 7px 7px 7px 7px;
+    float: right;
+}
+

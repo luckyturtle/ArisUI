@@ -1,0 +1,122 @@
+.CompletedStakeCollapse {
+    width: 100%;
+}
+.CompletedStakeCollapse .ant-collapse-header {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--stake-switch-bk);
+}
+.CompletedStakeCollapse .ant-collapse {
+    border: 0px;
+}
+.CompletedStakeCollapse .ant-collapse-item {
+    border: 0px;
+}
+.CompletedStakeCollapse .ant-collapse-expand-icon{
+    color:var(--primary-color);
+}
+.CompletedStakeCollapse-header {
+    padding: 10px;
+}
+.CompletedStakeCollapse .tokenName {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--third-color);
+}
+.CompletedStakeCollapse .apy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CompletedStakeCollapse .action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CompletedStakeCollapse .apy-label {
+    color:var(--third-color);
+    font-size: 15px;
+}
+
+.CompletedStakeCollapse .apy-number {
+    color:var(--primary-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+.CompletedStakeCollapse .stacked_bal_label{
+    color:var(--third-color);
+    font-size: 15px;
+}
+.CompletedStakeCollapse .staked_bal_ib_num{
+    color:var(--primary-color);
+    font-size: 15px;
+    font-weight: bold;
+}
+.CompletedStakeCollapse .staked_bal_num{
+    color:var(--primary-color);
+    font-size: 15px;
+}
+.CompletedStakeCollapse .action-label {
+    color:var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: 15px;
+    border-radius: 10px;
+    padding:5px;
+    border: 2px solid var(--primary-color);
+}
+.CompletedStakeCollapse .ant-collapse-content-box {
+    background: var(--fourth-color);
+    border-left: 1px solid var(--stake-switch-bk);
+    border-right: 1px solid var(--stake-switch-bk);
+    border-bottom: 1px solid var(--stake-switch-bk);
+}
+.CompletedStakeCollapse .ant-collapse-content {
+    border: 0px;
+}
+.CompletedStakeCollapse .ant-collapse {
+    background: var(--fourth-color);
+}
+.CompletedStakeCollapse .ant-btn-confirm:disabled {
+    background: var(--fourth-color);
+    color: var(--input-border);
+    border-color: var(--input-border);
+}
+.CompletedStakeCollapse .ant-btn-confirm {
+    border-radius: 7px 7px 7px 7px;
+    float: right;
+    width: 100%;
+}
+.CompletedStakeCollapse .approve {
+    width: 100%;
+    margin-top: 2rem;
+}
+.CompletedStakeCollapse .unstake {
+    width: 100%;
+    margin-top: 2rem;
+}
+.stakeBox-total-label {
+    color:var(--input-label);
+    font-size: 15px;
+}
+.stakeBox-total-number {
+    color:var(--primary-color);
+    font-size: 30px;
+}
+.CompletedStakeCollapse .claim {
+    width: 60%;
+    margin-top: 1.5rem;
+}
+.CompletedStakeCollapse .ant-avatar {
+    border: 0px;
+}
+.CompletedStakeCollapse-legacy {
+    padding-left: 5.5px;
+    padding-right: 5.5px;
+    flex: 0 0 auto;
+    border-radius: 0.25rem;
+    background-color: var(--stake-switch-bk);
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}

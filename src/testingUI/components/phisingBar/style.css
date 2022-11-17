@@ -1,0 +1,22 @@
+.phising {
+    background-color: var(--primary-color);
+    height: 4vh;
+    padding-top: 1vh;
+}
+.phising-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    color: var(--secondary-color)
+}
+.phising-text {
+    margin-left: 0.5vh;
+}
+.phising-x {
+    color: var(--secondary-color);
+    margin-right: 1vh;
+    cursor: pointer;
+}

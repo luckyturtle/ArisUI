@@ -1,0 +1,62 @@
+.FarmBody_title {
+    font-size: 1.5rem;
+    color: var(--third-color);
+    font-weight: bold;
+}
+.FarmBody .dex_label{
+    font-size: 0.75rem;
+    color: var(--third-color);
+    font-weight: bold;
+}
+.FarmBody .c-switcher__btn {
+    color: var(--third-color)!important;
+    background-color: var(--dex-btn-bk);
+    border-radius: 15px;
+    border-style: none;
+    font-size: 13px;
+    height: 37px;
+    margin-left: 0.5rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    border: 0px;
+}
+
+.FarmBody .c-switcher__btn.ant-radio-button-wrapper-checked {
+    font-weight: 700;
+    color: var(--secondary-color)!important;
+    background-color: var(--primary-color);
+    border: 0px!important;
+}
+.FarmBody .c-switcher__btn.ant-radio-button-wrapper-checked:hover {
+    background-color: var(--primary-color);
+}
+.FarmBody .ant-radio-button-wrapper:not(:first-child)::before {
+    width:0px!important;
+}
+.Farm .ant-pagination-total-text {
+    color:var(--third-color);
+}
+.Farm .ant-pagination-item-link {
+    color:var(--third-color);
+}
+.Farm .ant-pagination-item-link:disabled {
+    color: var(--colors-footerbackground)!important;
+}
+.Farm .ant-pagination-item a {
+    color:var(--third-color);
+}
+.Farm .ant-pagination-item-active {
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    color: var(--secondary-text-color);
+}
+.c-poolDexFilter__btn__icon {
+    width: 20px;
+    /* margin-top: 3px; */
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(255,255,255,var(--tw-bg-opacity));
+}
+

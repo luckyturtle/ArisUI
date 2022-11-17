@@ -1,0 +1,30 @@
+.sidebar-menu {
+    background-color: var(--colors-background);
+    border: 0px;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: var(--colors-background);
+    color: var(--primary-color);
+}
+.ant-menu-item {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--third-color);
+    padding: 0px;
+    transition: border-color 0s, background 0s, padding 0s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.ant-menu-light .ant-menu-item:hover {
+    color: var(--primary-color);
+}
+.ant-menu {
+    transition: background 0s, width 0s cubic-bezier(0.2, 0, 0, 1) 0s;
+}
+.ant-menu-item:active {
+    background-color: var(--colors-background);
+}
+.ant-layout-sider {
+    transition: all 0s
+}
+.ant-menu-vertical .ant-menu-item {
+    padding: 0px;
+}

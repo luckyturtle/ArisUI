@@ -1,0 +1,73 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,600&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap')
+@font-face
+  font-family: 'at-font-swap'
+  src: local('Verdana')
+  unicode-range: U+0040
+$font-stack: 'at-font-swap', 'Cabin', 'Gill Sans', 'Helvetica', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'Osaka', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+*
+  margin: 0
+  padding: 0
+body
+  margin: 0
+  padding: 0
+  font-family: 'at-font-swap', 'Cabin', 'Gill Sans', 'Helvetica', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'Osaka', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+.page-body
+  font-family: $font-stack
+  &.full-page-container
+    min-height: 100vh
+@media screen and (max-width: 800px)
+  .page-body
+    padding-top: 56px
+    &.full-page-container
+      min-height: calc(100vh - 56px)
+$bg-colour: #FFFFFF
+$fg-colour: #081116
+$yellow: #FFCD56
+$beige: #DCD4AF
+$cyan: #75CCCD
+$cyan-dark: #00BAC7
+$cyan-grey: #8DABAC
+$cyan-grey-pale: #8CACAE
+$cyan-button-bg: #093F4D
+$cyan-thicc: #093F4D
+$grey: #7a7a7a
+$grey-dark: #4a4a4a
+$grey-darker: #363636
+$grey-darkest: #2C2C2C
+$black-ter: #242424
+$black-bis: #121212
+$grey-light: #b5b5b5
+$grey-lighter: #dbdbdb
+$grey-lightest: #ebebeb
+$white-ter: #f5f5f5
+$white-bis: #fafafa
+$antique-brass: #cb9370
+$rodeo-dust: #ceb599
+$pearl-brush: #e9e3dc
+$pampas: #f6f4f2
+$mine-shaft: #252424
+.swal2-popup
+  background-color: $black-ter !important  
+.swal2-popup.swal2-toast
+  background-color: $black-ter !important
+.swal2-modal
+  background: $black-ter !important
+  background-color: $black-ter !important
+  border-radius: 8px !important
+  button
+    font-family: $font-stack !important
+    letter-spacing: 1px !important
+    border-radius: 8px !important
+    &.swal2-confirm
+      background: $antique-brass !important
+    &.swal2-deny
+      background: $grey !important
+    &.swal2-cancel
+      background: $rodeo-dust !important
+.swal2-title
+  color: $grey-lighter !important
+.swal2-html-container
+  color: $white-ter !important

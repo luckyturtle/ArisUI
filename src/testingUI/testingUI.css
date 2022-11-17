@@ -1,0 +1,128 @@
+/* @media (prefers-color-scheme: dark) {
+    body { background: #333; color: white; }
+}
+@media (prefers-color-scheme: light) {
+    body { background: rgb(241, 240, 240); color: black; }
+} */
+body[data-theme='light'] {
+    --colors-background: #EDEDF2;
+    --colors-footerbackground: #E5E7EB;
+    --footerContent:#878D99;
+    --divider:#DFDFE4;
+    --image-btn-bk:#DFDFE4;
+    --primary-color:#56d598;
+    --primary-f-color:#50ad80;
+    --primary-light-color:#5ce0a0;
+    --primary-dark-color:#56d598;
+    --secondary-color: white;
+    --secondary-text-color: black;
+    --lang-content-border:#E5E7EB;
+    --third-color:#515363;
+    --tooltip-bk:#0F1228;
+    --tw-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+    --divider:rgba(0,0,0,.06);
+    --table-cell:#0f1228;
+    --table-row-bottom: #F0F0F0;
+    --table-row-hover:#FAFAFA;
+    --get-token:#F3F4F6;
+    --tertiary-color:#1da765;
+    --input-label:#8A8A8A;
+    --input-border:#c3c3c3;
+    --staking-box-shadow:0 2px 8px rgb(0 0 0 / 15%);
+    --stake-switch-bk:#BFBFBF;
+    --fourth-color:#F5F5F5;
+    --dex-btn-bk:#E5E7EB;
+    --modal-outbk:#23263A;
+  }
+body[data-theme='dark'] {
+    --colors-background: #303035;
+    --colors-footerbackground: #2B2D30;
+    --footerContent:#585B63;
+    --divider:#53535a;
+    --image-btn-bk:#53535a;
+    --primary-color:#279e65;
+    --primary-f-color:#26744e;
+    --primary-light-color:#56d598;
+    --primary-dark-color:#279e65;
+    --secondary-color: #191919;
+    --secondary-text-color: white;
+    --lang-content-border:#333639;
+    --third-color:#D3D6E7;
+    --tooltip-bk:#D3D6E7;
+    --tw-shadow: 0 1px 3px 0 rgba(255,255,255,0.1),0 1px 2px 0 rgba(255,255,255,0.06);
+    --divider:rgba(255,255,255,.06);
+    --table-cell:#B8B8B8;
+    --table-row-bottom: #252525;
+    --table-row-hover:#1D1D1D;
+    --get-token:#222224;
+    --tertiary-color:#157c4b;
+    --input-label:#7A7A7A;
+    --input-border:#484848;
+    --staking-box-shadow:0 2px 8px rgb(255 255 255 / 15%);
+    --stake-switch-bk:#4D4D4D;
+    --fourth-color:#212121;
+    --dex-btn-bk:#2B2D30;
+    --modal-outbk:#C2C4D4;
+}
+::selection {
+    background: var(--primary-color);
+  }
+.container {
+    background: var(--colors-background);
+    min-height: 70vh;
+    padding: 0 50px;
+}
+body {
+    font-family: Poppins,Open Sans;
+}
+.ConnectedWallet-btn {
+    height: 39px;
+    background: var(--secondary-color)!important;
+    color: var(--primary-color)!important;
+    border-radius: 0.75rem;
+    border: 1px solid var(--primary-color)!important;
+    box-shadow: var(--tw-shadow);
+    margin-top: 3vh;
+}
+.ConnectedWallet-btn:hover {
+    background: var(--primary-color)!important;
+    color: var(--secondary-color)!important;
+    border: 1px solid var(--primary-color)!important;
+}
+.ConnectedWallet-btn .ant-btn.ant-btn-background-ghost {
+    border: 1px solid var(--primary-color)!important;
+}
+
+.WalletSelector .ant-modal-content {
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    color:var(--third-color);
+}
+.WalletSelector .ant-modal-title {
+    color:var(--third-color);
+}
+.WalletSelector .ant-modal-header {
+    background-color: var(--secondary-color);
+    border-bottom:0px;
+    border-radius: 15px;
+}
+.WalletSelector .ant-modal-close-x {
+    color:var(--third-color);
+}
+.WalletSelector .anticon-wallet-selector {
+    color: var(--primary-color);
+    font-size: 20px;
+    margin-right: 0.5rem;
+}
+.WalletSelector .WalletBtn {
+    height: auto;
+    border: 1px solid var(--divider);
+    border-radius: 12px;
+    width: 100%;
+    background-color: var(--secondary-color);
+    color:var(--third-color);
+}
+.WalletSelector .WalletBtn:hover {
+    background-color:var(--primary-color);
+    color:white;
+}
